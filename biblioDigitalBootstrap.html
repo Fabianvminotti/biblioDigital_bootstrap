@@ -9,9 +9,9 @@
   </head>
   <body>
 
-      <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #5293CD ">
+      <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #5293CD;  ">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="resources/LogoConsejoBlanco.svg" height="30px"> Biblio Digital</a>
+            <a class="navbar-brand" href="#"><img src="resources/ceichBlanco.svg" height="35px" style="margin-right: 20px"> Biblio Digital</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -21,11 +21,11 @@
                   <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Deja tu apunte</a>
+                  <a class="nav-link" href="#DejaTuApunte">Deja tu apunte</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Ver más
+                    Cosas útiles
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="#">Calendarios</a></li>
@@ -44,6 +44,99 @@
     </nav>
 
 
+
+
+<!--############# BIBLIOTECA ##################-->
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+  </ol>
+  <div class="carousel-inner  ">
+    <div class="carousel-item active">
+      <img src="resources/II.svg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="resources/IA.svg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="resources/IAG.svg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="resources/IRH.svg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="resources/ING.svg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+
+
+
+<!--############# DEJA TU APUNTE ##################-->
+
+<div class="container p-5" id="DejaTuApunte" >
+  <div class="row">
+        <h2 class="text-center  mt-5  fw-bolder fs-1">DEJÁ TU APUNTE</h2>
+  </div>
+
+  <div class="row justify-content-center">
+        <div class="col-10 col-md-6 ">
+          <p>Completa este formulario para aportar los apuntes, anotaciones, libros, diapositivas o cualquier cosa que pienses que hace falta en la biblioteca digital</p>
+        </div>
+  </div>
+
+  <div class="row justify-content-center">
+        <div class="col-10 col-md-6 d-block">
+          <select class="form-select" aria-label="Default select ">
+            <option selected>Carrera</option>
+            <option value="1">Informatica</option>
+            <option value="2">Recursos Hidricos</option>
+            <option value="3">Agrimensura</option>
+            <option value="3">Ambiental</option>
+            <option value="3">Varias </option>
+          </select>
+        </div>
+             <br>
+        <div class="col-10 col-md-6   d-block">
+          <label for="formFileMultiple" class="form-label">Subir archivo</label>
+          <input class="form-control" type="file" id="formFileMultiple" multiple>
+        </div>
+            <br>
+        <div class="col-10 col-md-6   d-block">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+
+  </div>
+
+</div>
+
+
+
+       
+
+
+
+
+
+
+
+
+<!--############# SCRIPT ##################-->
 
 
 
